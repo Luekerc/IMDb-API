@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Day-15 Movie App</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/main.scss">
+  </head>
+
+  <body>
+      <div>
+          <h1 class="search-title">IMDb API Demo
+          </h1>
+          <p>This application allows you to search the <a href="http://omdbapi.com">IMDb API</a> for movie titles and store them in a <strong>TO WATCH</strong> list by clicking on the title. Once you've watched them, you can then move that movie into the <strong>"WATCHED</strong> list.<br><br>
+          The app will store both your TO WATCH and WATCHED lists for future reference.</p>  
+      
+          <div id="buttonandresults">
+            <input type="text" class="search-box" placeholder="Type movie name here">
+            <button type="button" id="searchbutton" class="btn btn-default">Search</button>
+          </div>
+
+          <br>
+
+          <div class="intro">MOVIE LIST
+          </div>
+
+          <button id="clearresults" class="btn btn-default">Clear Results
+          </button>Note: This only clears search results.
+           </div>
+          <div id="results">
+            <table id="table">
+            </table>
+          </div>
+
+          <br>
+
+          <div class="watchlist">TO WATCH
+          </div>
+
+          <div class="towatch">
+          </div>
+
+          <br>
+
+          <div id="watched">WATCHED
+          </div>
+
+          <div class="watched">
+          </div>
+      </div>
+  </body>
+
+  <footer>
+    
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
